@@ -141,7 +141,7 @@ class Confusion_Matrix(object):
         plt.xticks(range(width), alphabet[:width], rotation=90)
         plt.yticks(range(height), alphabet[:height])
         plt.show()
-        plt.savefig()
+        plt.savefig("./part_a.png")
         return plt
 
 
